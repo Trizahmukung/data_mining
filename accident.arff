@@ -1,0 +1,88 @@
+@relation accident_data
+
+@attribute location string
+@attribute time string
+@attribute weather {clear, rain, fog, snow}
+@attribute road_conditions {dry, wet, icy}
+@attribute vehicle_types {car, motorcycle, truck, bus, bicycle}
+@attribute injury_severity {none, minor, severe, fatal}
+
+@data
+"Downtown", "08:00", clear, dry, car, minor
+"Suburb", "18:30", rain, wet, motorcycle, severe
+"Highway", "22:15", fog, wet, truck, fatal
+"Rural", "14:00", clear, dry, bicycle, none
+"City Center", "09:45", snow, icy, bus, minor
+"Suburb", "11:30", clear, dry, car, none
+"Downtown", "23:00", rain, wet, car, severe
+"Highway", "07:15", fog, dry, truck, none
+"Rural", "15:45", clear, dry, motorcycle, minor
+"City Center", "20:00", snow, icy, bus, severe
+"Highway", "10:30", clear, dry, truck, none
+"Suburb", "16:45", rain, wet, car, fatal
+"City Center", "13:20", snow, icy, motorcycle, severe
+"Downtown", "19:10", fog, wet, truck, minor
+"Rural", "08:45", clear, dry, bicycle, none
+"Highway", "06:30", snow, icy, bus, none
+"City Center", "12:15", clear, dry, car, minor
+"Suburb", "21:50", rain, wet, motorcycle, severe
+"Rural", "17:30", fog, wet, truck, fatal
+"Downtown", "09:00", clear, dry, bicycle, none
+"Highway", "08:20", snow, icy, car, minor
+"City Center", "14:40", rain, wet, motorcycle, minor
+"Suburb", "19:55", fog, wet, truck, fatal
+"Rural", "10:10", clear, dry, car, none
+"Highway", "16:25", snow, icy, bus, severe
+"City Center", "11:50", rain, wet, car, minor
+"Downtown", "18:35", fog, wet, motorcycle, severe
+"Rural", "07:40", clear, dry, truck, none
+"Suburb", "22:05", snow, icy, bus, none
+"City Center", "15:20", rain, wet, car, severe
+"Highway", "09:30", fog, wet, motorcycle, minor
+"Rural", "13:10", clear, dry, truck, none
+"Downtown", "20:45", snow, icy, car, severe
+"Suburb", "08:55", rain, wet, bicycle, minor
+"Highway", "17:10", fog, wet, truck, severe
+"City Center", "12:25", clear, dry, car, none
+"Rural", "21:00", snow, icy, motorcycle, severe
+"Downtown", "14:30", rain, wet, truck, minor
+"Suburb", "06:20", fog, wet, car, fatal
+"City Center", "19:35", clear, dry, motorcycle, minor
+"Highway", "11:40", snow, icy, truck, none
+"Rural", "16:15", rain, wet, bus, severe
+"Downtown", "09:50", fog, wet, car, minor
+"Suburb", "22:25", clear, dry, truck, none
+"City Center", "15:10", snow, icy, bicycle, none
+"Highway", "08:45", rain, wet, motorcycle, minor
+"Rural", "13:20", fog, wet, car, severe
+"Downtown", "21:00", clear, dry, truck, none
+"Suburb", "07:35", snow, icy, motorcycle, minor
+"City Center", "16:55", rain, wet, bus, fatal
+"Highway", "10:10", fog, wet, car, none
+"Rural", "18:30", clear, dry, motorcycle, minor
+"Downtown", "11:25", snow, icy, truck, severe
+"Suburb", "19:40", rain, wet, bicycle, none
+"City Center", "13:15", fog, wet, car, fatal
+"Highway", "07:50", clear, dry, truck, none
+"Rural", "22:20", snow, icy, motorcycle, severe
+"Downtown", "14:45", rain, wet, bus, minor
+"Suburb", "08:00", fog, wet, car, none
+"City Center", "20:25", clear, dry, motorcycle, severe
+"Highway", "12:35", snow, icy, truck, fatal
+"Rural", "09:10", rain, wet, car, minor
+"Downtown", "17:55", fog, wet, bicycle, none
+"Suburb", "23:30", clear, dry, truck, none
+"City Center", "16:15", snow, icy, car, minor
+"Highway", "10:40", rain, wet, motorcycle, severe
+"Rural", "07:25", fog, wet, bus, fatal
+"Downtown", "21:50", clear, dry, car, none
+"Suburb", "13:20", snow, icy, truck, severe
+"City Center", "18:45", rain, wet, motorcycle, minor
+"Highway", "09:00", fog, wet, car, none
+"Rural", "15:35", clear, dry, bus, minor
+"Downtown", "10:10", snow, icy, motorcycle, severe
+"Suburb", "19:40", rain, wet, car, minor
+"City Center", "08:05", fog, wet, truck, fatal
+"Highway", "22:30", clear, dry, motorcycle, none
+"Rural", "16:55", snow, icy, car, minor
+"Downtown", "11:30", rain, wet, bicycle,none
